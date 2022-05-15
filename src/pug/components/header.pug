@@ -1,1 +1,21 @@
-header 
+header.header.container
+	.header__logo 
+		img.logo__img(src="./assets/imgs/logo.png", alt="logo")
+		span.logo__txt Всё о чае и про чай
+	nav.header__nav 
+		ul.nav__list 
+			li.nav__link 
+				a.link(href="") Главная 
+			li.nav__link 
+				a.link(href="") О Нас
+			li.nav__link 
+				a.link(href="") Рубрики 
+			li.nav__link 
+				a.link(href="") Свежие новости 
+			li.nav__link 
+				a.link(href="") Обратная связь
+	form.header__form(action="") 
+		label(for="") 
+			input.header__search(type="search", name="")
+		label(for="")
+			//- button  
