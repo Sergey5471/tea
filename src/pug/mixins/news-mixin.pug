@@ -1,0 +1,6 @@
+mixin news-mixin(args={})
+	.news__item(class=args.backg)
+		.news__item__content(class=args.substrate) 
+			h3.news__item__title=args.title
+			p.news__item__text=args.text 
+			a.news__item__link(href=args.link) Читать далее

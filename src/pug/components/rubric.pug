@@ -1,0 +1,33 @@
+include ../mixins/rubric-box.pug
+section.rubric.container 
+	h2.rubric__title Рубрики
+	.rubric__row 
+		+rubric_item({
+			title: 'Зеленый чай',
+			img: './assets/imgs/rubric/green.png',
+		})
+		+rubric_item({
+			title: 'Красный чай',
+			img: './assets/imgs/rubric/red.png',
+		})
+		+rubric_item({
+			title: 'Пуэр',
+			img: './assets/imgs/rubric/puer.png',
+		})
+		+rubric_item({
+			title: 'Травяной чай',
+			img: './assets/imgs/rubric/herbal.png',
+
+		})
+		+rubric_item({
+			title: 'Фруктово-ягодный',
+			img: './assets/imgs/rubric/fruit.png',
+		})
+		+rubric_item({
+			title: 'Черный чай',
+			img: './assets/imgs/rubric/black.png',
+		})
+		+rubric_item({
+			title: 'Этнический чай',
+			img: './assets/imgs/rubric/ethnic.png',
+		})

@@ -1,1 +1,6 @@
-div 
+mixin slide(args={})
+	a.slide__link(href=args.link) 
+		.slide__box 
+			img.slide__box__img(src=args.img, alt=args.text)
+			.slide__box__item 
+				p.slide__box__text=args.text

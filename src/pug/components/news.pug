@@ -1,0 +1,43 @@
+include ../mixins/news-mixin.pug
+section.news
+	.container
+		h2.news__title Свежие новости
+		.news__grid
+			+news-mixin({
+				backg: 'news__item__hot',
+				substrate: 'news__item__content__white',
+				title: 'Горячий или холодный? -что полезнее пить',
+				text: 'Вы замечали, что каждый человек предпочитает свою температуру чая...',
+				link: '#',
+			})
+			+news-mixin({
+				backg: 'news__item__peper',
+				title: 'Чай с перцем',
+				text: 'Сочетания чая и перца многим покажется странным, однако...',
+				link: '#',
+			})
+			+news-mixin({
+				backg: 'news__item__rose',
+				title: 'Чай с розмарином',
+				text: 'Розмарин-любимая многими специя, в аромате которой заключен целый букет...',
+				link: '#',
+			})
+			+news-mixin({
+				backg: 'news__item__althaus',
+				title: 'Чай Althaus',
+				text: 'Среди множества других чайных брендов заметно выделяется относительно молодой...',
+				link: '#',
+			})
+			+news-mixin({
+				backg: 'news__item__alokozay',
+				title: 'Чай Alokozay',
+				text: 'Выпуском чая занимается много именитых брендов...',
+				link: '#',
+			})
+			+news-mixin({
+				backg: 'news__item__banana',
+				substrate: 'news__item__content__white',
+				title: 'Банановый чай -крепкий сон и хорошее настроение',
+				text: 'Бананы входят в десятку излюбленных тропических фруктов...',
+				link: '#',
+			})

@@ -1,18 +1,45 @@
 const swiper = new Swiper('.swiper', {
-	// Optional parameters
 	loop: true,
-	slidesPerView: 3,
-	
-  
-	// If we need pagination
+	centeredSlides: true,
+	slidesPerView: 2.8,
+	initialSlide: 1,
 	pagination: {
-	  el: '.swiper-pagination',
+		el: ".swiper-pagination",
+		clickable: true,
 	},
-  
-	// Navigation arrows
-	navigation: {
-	  nextEl: '.swiper-button-next',
-	  prevEl: '.swiper-button-prev',
-	},
-  
+ 	
   });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const swiper = new Swiper('.swiper', {
+// 	// Optional parameters
+// 	loop: true,
+// 	slidesPerView: 3,
+// 	loop: true,
+// 	centeredSlides: true,
+// 	pagination: {
+// 		el: ".swiper-pagination",
+// 		clickable: true,
+// 	},
+	
+// 	// Navigation arrows
+// 	navigation: {
+// 	  nextEl: '.swiper-button-next',
+// 	  prevEl: '.swiper-button-prev',
+// 	},
+  
+//   });

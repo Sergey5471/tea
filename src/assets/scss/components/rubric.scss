@@ -1,0 +1,32 @@
+.rubric {
+	margin-top: 34px;
+	margin-bottom: 52px;
+	
+	&__title {
+		font-weight: 700;
+		font-size: 2.4rem;
+		line-height: 2.6rem;
+		color: #54412D;
+		margin-bottom: 25px;
+		text-align: center;
+	}
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__item {
+		
+		&__title {
+			font-weight: 800;
+			font-size: 1.4rem;
+			line-height: 2.0rem;
+			color: #485B30;
+			text-align: center;
+			margin-bottom: 5px;
+		}
+	}
+	
+
+}
