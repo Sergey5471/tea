@@ -29,6 +29,9 @@
 			}
 		
 	}
+	&-pagination {
+		position: static;
+	}
 	&-pagination-bullet {
 		width: 15px;
 		height: 15px;
@@ -66,18 +69,3 @@
 		color: #54412D;
 	}
 }
-
-
-
-
-// .swiper-slide {
-// 	opacity: 0.5;
-// 	transition: transform 0.5s;
-// }
-
-// .swiper-slide-active {
-// 	transform: scale(1.2);
-// 	opacity: 1;
-// 	transition: transform 0.5s;
-// }
-	
