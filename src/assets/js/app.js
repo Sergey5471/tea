@@ -1,6 +1,6 @@
 const swiper = new Swiper('.swiper', {
 	loop: true,
-	slidesPerView: 3,
+	slidesPerView: 2.8,
 	spaceBetween: 40,
 	centeredSlides: true,
 	pagination: {
